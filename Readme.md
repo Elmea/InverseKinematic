@@ -2,8 +2,7 @@
 
 **This project is about creation of Inverse Kinematic using existing algorithm.**
 
-<img src="screenshots/dummy.png" width="200"/>
-
+<img src="./Screenshots/Dummy.png" width="200"/>
 
 The main scene allow to test IK in different condition. 
 
@@ -29,17 +28,17 @@ Custom bone constraint is supported, it can be added by simply add the bone cons
 
 *Example of the inverse kinematic class*
 
-<img src="screenshots/Feature.png" width="400"/>
+<img src="./Screenshots/Feature.png" width="400"/>
 
 ## Screenshots
 
 ### Leg IK on a step 
 
-<img src="screenshots/Step.png" width="200"/>
-<img src="screenshots/StepFront.png" width="200"/>
+<img src="./Screenshots/Step.png" width="200"/>
+<img src="./Screenshots/StepFront.png" width="200"/>
 
 ### Arm IK
 
-<img src="screenshots/Arm.png" width="200"/>
-<img src="screenshots/ArmFront.png" width="200"/>
-<img src="screenshots/FloatingCube.png" width="200"/>
+<img src="./Screenshots/Arm.png" width="200"/>
+<img src="./Screenshots/ArmFront.png" width="200"/>
+<img src="./Screenshots/FloatingCube.png" width="200"/>
