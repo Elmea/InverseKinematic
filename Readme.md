@@ -34,11 +34,15 @@ Custom bone constraint is supported, it can be added by simply add the bone cons
 
 ### Leg IK on a step 
 
-<img src="./Screenshots/Step.png" width="200"/>
-<img src="./Screenshots/StepFront.png" width="200"/>
+<div style="display:flex"> 
+    <img src="./Screenshots/Step.png" width="200"/>
+    <img src="./Screenshots/StepFront.png" width="200"/>
+</div>
 
 ### Arm IK
 
-<img src="./Screenshots/Arm.png" width="200"/>
-<img src="./Screenshots/ArmFront.png" width="200"/>
-<img src="./Screenshots/FloatingCube.png" width="200"/>
+<div style="display:flex"> 
+    <img src="./Screenshots/Arm.png" width="200"/>
+    <img src="./Screenshots/ArmFront.png" width="200"/>
+    <img src="./Screenshots/FloatingCube.png" width="200"/>
+</div>
