@@ -5332,6 +5332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5474720983167184904}
   - component: {fileID: 3451632176089526886}
+  - component: {fileID: 4911466560374578767}
   m_Layer: 7
   m_Name: J_Bip_R_Hand
   m_TagString: Untagged
@@ -5368,7 +5369,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6960566493178640830}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a402d147812128c45bc12a020a38b154, type: 3}
   m_Name: 
@@ -5379,6 +5380,24 @@ MonoBehaviour:
   chainLenght: 3
   iteration: 8
   useTargetRotation: 0
+--- !u!114 &4911466560374578767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6960566493178640830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d4739c6723dafe47bb7eba3fb006acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  XMin: -90
+  XMax: 100
+  YMin: -30
+  YMax: 0
+  ZMin: -50
+  ZMax: 0
 --- !u!1 &6964835157075860337
 GameObject:
   m_ObjectHideFlags: 0
@@ -6280,7 +6299,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8337464522315933813}
   - component: {fileID: 3811839203332148608}
-  - component: {fileID: 6883775635186689434}
   m_Layer: 7
   m_Name: J_Bip_R_LowerArm
   m_TagString: Untagged
@@ -6326,24 +6344,6 @@ MonoBehaviour:
   YMax: 40
   ZMin: -150
   ZMax: 10
---- !u!114 &6883775635186689434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8182262500763589751}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a402d147812128c45bc12a020a38b154, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EndEffector: {fileID: 150171126495151268}
-  IKTarget: {fileID: 3771197519879481313}
-  algorithm: 0
-  chainLenght: 2
-  iteration: 8
-  useTargetRotation: 0
 --- !u!1 &8291003280825772629
 GameObject:
   m_ObjectHideFlags: 0
